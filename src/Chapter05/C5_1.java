@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Tells you within how many numbers are positive and how many are odd
  *
- * @author ct1014914
+ * @author Chris Tjahjo
  */
 public class C5_1 {
 

@@ -51,6 +51,15 @@ public class P6 {
 
     }
 
+    /**
+     * convert method
+     *
+     * @param dollars original amount typed to another currency
+     *
+     * @param exchangeRate the rate of the certain currency conversion
+     *
+     * @return total of exchange
+     */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
             return 0.95 * dollars * exchangeRate;

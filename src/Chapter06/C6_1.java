@@ -2,8 +2,18 @@ package Chapter06;
 
 import java.util.Scanner;
 
+/**
+ * Detect password is a math with input
+ *
+ * @author Chris Tjahjo
+ */
 public class C6_1 {
 
+    /**
+     * Main method
+     *
+     * @param args command line argument
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your password: ");
@@ -12,6 +22,15 @@ public class C6_1 {
         System.out.println(isValid(password) ? "Valid Password" : "Invalid Password");
     }
 
+    /**
+     * isValid method
+     *
+     * Detecting if the password is valid or not
+     *
+     * @param password user password
+     *
+     * @return true or false
+     */
     public static boolean isValid(String password) {
         // Atleast 8 characters
         if (password.length() < 8) {

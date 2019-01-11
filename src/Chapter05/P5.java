@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Counts how many votes for yes and no
  *
- * @author ct1014914
+ * @author Chris Tjahjo
  */
 public class P5 {
 
