@@ -23,7 +23,7 @@ public class C6_1 {
     }
 
     /**
-     * isValid method
+     * Password checker method
      *
      * Detecting if the password is valid or not
      *
